@@ -1,0 +1,45 @@
+﻿# Dependencies
+node_modules/
+**/node_modules/
+
+# Build and tooling outputs
+dist/
+build/
+coverage/
+.cache/
+.parcel-cache/
+.turbo/
+.next/
+.nuxt/
+.svelte-kit/
+
+# Vite / TypeScript incremental files
+.vite/
+.vite-temp/
+*.tsbuildinfo
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Environment and local overrides
+.env
+.env.*
+*.env
+*.local
+!.env.example
+!.env.*.example
+
+# Editor/OS files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json

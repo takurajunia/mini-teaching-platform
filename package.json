@@ -1,0 +1,10 @@
+{
+  "name": "MiniLearning",
+  "private": true,
+  "workspaces": ["backend", "frontend", "admin"],
+  "scripts": {
+    "dev:backend": "npm run dev --workspace=backend",
+    "dev:frontend": "npm run dev --workspace=frontend",
+    "dev:admin": "npm run dev --workspace=admin"
+  }
+}
